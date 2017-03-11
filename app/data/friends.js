@@ -14,6 +14,37 @@ var friends = [
             4,
             1
         ]
+    },
+    {
+        name:"Friend 1",
+        photo:"https://fillmurary.com/200/200",
+        scores:[
+            3,
+            5,
+            4,
+            4,
+            3,
+            5,
+            2,
+            3,
+            4,
+            5
+        ]
+    },{
+        name:"Friend 2",
+        photo:"https://fillmurary.com/200/200",
+        scores:[
+            2,
+            1,
+            1,
+            1,
+            2,
+            1,
+            2,
+            2,
+            1,
+            1
+        ]
     }
 ];
 

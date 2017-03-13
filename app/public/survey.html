@@ -209,6 +209,17 @@
 		  return isValid;
 		}
 
+		// Clear the Form
+		function clearForm() {
+		  $('.form-control').each(function() {
+		    $(this).val('');
+		  });
+
+		  $('.chosen-single').each(function() {
+			$(this).text('');
+		  })
+		}
+
 		// If all required fields are filled
 		if (validateForm() == true)
 		{
@@ -233,6 +244,8 @@
 		    	// Show the modal with the best match 
 		    	$("#resultsModal").modal('toggle');
 
+				// Clear the page so someone cannot submit duplicate profiles immediately
+				clearForm();
 	    	});
 		}
 		else

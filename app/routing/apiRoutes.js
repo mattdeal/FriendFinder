@@ -24,7 +24,7 @@ module.exports = function(app) {
 
             // get friend score for this friend
             for (var j in friends[i].scores) {
-                friendScore += Math.abs(newFriend.scores[j] - friends[i].scores[j]);
+                friendScore += Math.abs(parseInt(newFriend.scores[j]) - parseInt(friends[i].scores[j]));
             }
 
             // check for new bestFriend
@@ -37,7 +37,7 @@ module.exports = function(app) {
         // add this person to friends
         friends.push(newFriend);
 
-        // return best friend as json object?
+        // return best friend as json object
         res.json(bestFriend);
     });
 }

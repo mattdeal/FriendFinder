@@ -1,0 +1,26 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "friendfinder assignment for the coding bootcamp at UNC Charlotte",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattdeal/FriendFinder.git"
+  },
+  "author": "Matt Deal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattdeal/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/mattdeal/FriendFinder#readme"
+}

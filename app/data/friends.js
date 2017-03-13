@@ -17,7 +17,7 @@ var friends = [
     },
     {
         name:"Friend 1",
-        photo:"https://fillmurary.com/200/200",
+        photo:"https://fillmurray.com/200/200",
         scores:[
             3,
             5,
@@ -32,7 +32,7 @@ var friends = [
         ]
     },{
         name:"Friend 2",
-        photo:"https://fillmurary.com/200/200",
+        photo:"https://fillmurray.com/200/200",
         scores:[
             2,
             1,
